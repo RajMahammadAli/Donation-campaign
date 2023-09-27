@@ -7,6 +7,7 @@ export default function () {
         <div>
           <h1 className="text-7xl">404 Errors</h1>
           <div className="w-full flex justify-center pt-4">
+            {/* error button added */}
             <Link className="btn btn-primary" to="/">
               Home
             </Link>
