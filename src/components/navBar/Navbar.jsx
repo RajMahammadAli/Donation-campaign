@@ -43,6 +43,8 @@ export default function () {
               <img className="cursor-pointer" src={logo} alt="" srcset="" />
             </Link>
           </div>
+
+          {/* this is navbar section */}
           <div className="navbar-center hidden lg:flex">
             <ul className="flex px-1 w-full">
               <li className="pr-4 text-lg font-bold">
