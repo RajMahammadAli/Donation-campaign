@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1",
+    "picture": "https://i.ibb.co/3mW2WsM/Rectangle-4284.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "color": "#0052FF",
+    "card_bg_color": "#0052ff26",
+    "text_button_bg_color": "#0052ff33",
+    "description": "A nutritious and delicious snack for a healthy lifestyle.",
+    "price": 4.99
+  },
+  {
+    "id": "2",
+    "picture": "https://i.ibb.co/HYLfLt5/Rectangle-4287.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "color": "#79C23F",
+    "card_bg_color": "#79C23F26",
+    "text_button_bg_color": "#79c23f33",
+    "description": "A trendy and comfortable T-shirt for everyday wear.",
+    "price": 19.99
+  },
+  {
+    "id": "3",
+    "picture": "https://i.ibb.co/FnfNJTP/Rectangle-4287-1.png",
+    "title": "Good education",
+    "category": "Education",
+    "color": "#FF444A",
+    "card_bg_color": "#ff444926",
+    "text_button_bg_color": "#ff444933",
+    "description": "Learn a new skill or subject with this comprehensive online course.",
+    "price": 49.99
+  },
+  {
+    "id": "4",
+    "picture": "https://i.ibb.co/Mny5cXG/Rectangle-4287-2.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "color": "#F87147",
+    "card_bg_color": "#F8714726",
+    "text_button_bg_color": "#F8714733",
+    "description": "Fresh and organic fruits and vegetables for your meals.",
+    "price": 29.99
+  },
+  {
+    "id": "5",
+    "picture": "https://i.ibb.co/3mW2WsM/Rectangle-4284.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "color": "#0052FF",
+    "card_bg_color": "#0052ff26",
+    "text_button_bg_color": "#0052ff33",
+    "description": "Track your fitness goals and stay active with this device.",
+    "price": 59.99
+  },
+  {
+    "id": "6",
+    "picture": "https://i.ibb.co/HYLfLt5/Rectangle-4287.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "color": "#79C23F",
+    "card_bg_color": "#79C23F26",
+    "text_button_bg_color": "#79c23f33",
+    "description": "High-quality designer jeans for a stylish look.",
+    "price": 79.99
+  },
+  {
+    "id": "7",
+    "picture": "https://i.ibb.co/FnfNJTP/Rectangle-4287-1.png",
+    "title": "Good education",
+    "category": "Education",
+    "color": "#FF444A",
+    "card_bg_color": "#ff444926",
+    "text_button_bg_color": "#ff444933",
+    "description": "Learn a new language with this interactive language course.",
+    "price": 69.99
+  },
+  {
+    "id": "8",
+    "picture": "https://i.ibb.co/Mny5cXG/Rectangle-4287-2.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "color": "#F87147",
+    "card_bg_color": "#F8714726",
+    "text_button_bg_color": "#F8714733",
+    "description": "Premium organic tea leaves for a soothing experience.",
+    "price": 9.99
+  },
+  {
+    "id": "9",
+    "picture": "https://i.ibb.co/3mW2WsM/Rectangle-4284.png",
+    "title": "Clean water for children",
+    "category": "Health",
+    "color": "#0052FF",
+    "card_bg_color": "#0052ff26",
+    "text_button_bg_color": "#0052ff33",
+    "description": "Essential vitamin supplements for your well-being.",
+    "price": 14.99
+  },
+  {
+    "id": "10",
+    "picture": "https://i.ibb.co/HYLfLt5/Rectangle-4287.png",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "color": "#79C23F",
+    "card_bg_color": "#79C23F26",
+    "text_button_bg_color": "#79c23f33",
+    "description": "A comfortable and stylish dress for various occasions.",
+    "price": 34.99
+  },
+  {
+    "id": "11",
+    "picture": "https://i.ibb.co/FnfNJTP/Rectangle-4287-1.png",
+    "title": "Good education",
+    "category": "Education",
+    "color": "#FF444A",
+    "card_bg_color": "#ff444926",
+    "text_button_bg_color": "#ff444933",
+    "description": "Get personalized math tutoring to excel in your studies.",
+    "price": 39.99
+  },
+  {
+    "id": "12",
+    "picture": "https://i.ibb.co/Mny5cXG/Rectangle-4287-2.png",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "color": "#F87147",
+    "card_bg_color": "#F8714726",
+    "text_button_bg_color": "#F8714733",
+    "description": "A delightful assortment of gourmet foods and snacks.",
+    "price": 49.99
+  }
+]
