@@ -6,4 +6,7 @@
   <li>
     Responsive Data Visualization: The project includes responsive data visualization using pie charts to display donation statistics. Users can see the percentage of their donations in relation to their donation goal. The pie chart adapts to different screen sizes, ensuring a seamless experience on both desktop and mobile devices.
   </li>
+  <li>
+    Filter and Display: Users can filter and display their donations based on different criteria such as category, date, or amount. This feature provides users with a customizable view of their donation history, making it convenient to analyze and manage their contributions.
+  </li>
 </ol>
