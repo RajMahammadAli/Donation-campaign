@@ -57,7 +57,7 @@ export default function () {
           <Legend
             layout={window.innerWidth >= 768 ? "horizontal" : "vertical"}
             align="center"
-            verticalAlign={window.innerWidth >= 768 ? "bottom" : "middle"}
+            verticalAlign={window.innerWidth >= 768 ? "bottom" : "bottom"}
             iconType="square"
           />
         </PieChart>

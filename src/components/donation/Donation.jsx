@@ -1,38 +1,3 @@
-// import { useEffect, useState } from "react";
-// import { useLoaderData } from "react-router-dom";
-// import { getStoredDonation } from "../../utilities/localStorage";
-// import ShowDonationCard from "../showDonationCard/ShowDonationCard";
-
-// export default function () {
-//   const [showDonations, setShowDonations] = useState([]);
-
-//   const donationsFromJson = useLoaderData();
-//   useEffect(() => {
-//     const storedDonationIds = getStoredDonation();
-
-//     if (donationsFromJson.length > 0) {
-//       const donatiedIds = donationsFromJson.filter((donation) =>
-//         storedDonationIds.includes(donation.id)
-//       );
-//       setShowDonations(donatiedIds);
-//     }
-//   }, []);
-//   return (
-//     <>
-//       <div className="w-full max-w-[1280px] mx-auto">
-//         <div className="grid md:grid-cols-2 gap-3">
-//           {showDonations.map((showDonation, idx) => (
-//             <ShowDonationCard
-//               key={idx}
-//               showDonation={showDonation}
-//             ></ShowDonationCard>
-//           ))}
-//         </div>
-//       </div>
-//     </>
-//   );
-// }
-
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getStoredDonation } from "../../utilities/localStorage";
@@ -51,9 +16,9 @@ export default function () {
       const donatiedIds = donationsFromJson.filter((donation) =>
         storedDonationIds.includes(donation.id)
       );
-      setShowDonations(donatiedIds);
+      setShowDonations(donatiedIds.slice(0, showAll ? donatiedIds.length : 4)); // Show all data if showAll is true, otherwise show the first 4 items
     }
-  }, []);
+  }, [showAll]); // Add showAll to the dependency array
 
   const handleShowAllClick = () => {
     setShowAll(true);
