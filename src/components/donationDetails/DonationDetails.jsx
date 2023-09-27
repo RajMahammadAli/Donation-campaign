@@ -12,9 +12,7 @@ export default function () {
   const singleDonation = details.find((detail) => detail.id === id);
 
   const handleDonation = () => {
-    // Check if singleDonation is already in the donations array
     if (!donations.some((donation) => donation.id === singleDonation.id)) {
-      // If not in the array, add it and show success toast
       setDonations([...donations, singleDonation]);
       saveDonation(id);
       toast("Thank You for your Donation!", {
