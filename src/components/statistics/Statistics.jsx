@@ -34,8 +34,8 @@ export default function () {
       <div className="w-full grid grid-cols-1 justify-center items-center">
         <PieChart
           className="w-full p-2 border mx-auto mt-10"
-          width={window.innerWidth >= 768 ? 500 : 500}
-          height={window.innerWidth >= 768 ? 400 : 400}
+          width={window.innerWidth >= 768 ? 500 : window.innerWidth - 20}
+          height={window.innerWidth >= 768 ? 400 : window.innerWidth - 20}
         >
           {/* Adjust width and height here */}
           <Pie
@@ -45,7 +45,7 @@ export default function () {
             cx="50%"
             cy="50%"
             innerRadius={0} // Remove the inner radius to make it a regular pie chart
-            outerRadius={window.innerWidth >= 768 ? 150 : 100} // Set the outer radius for the pie chart
+            outerRadius={window.innerWidth >= 768 ? 150 : window.innerWidth / 4} // Set the outer radius for the pie chart
             fill="#8884d8"
             paddingAngle={3} // Adjust padding between segments
             label={renderCustomizedLabel(data)} // Pass the data to the custom label function
@@ -55,9 +55,9 @@ export default function () {
             ))}
           </Pie>
           <Legend
-            layout="horizontal"
+            layout={window.innerWidth >= 768 ? "horizontal" : "vertical"}
             align="center"
-            verticalAlign="bottom"
+            verticalAlign={window.innerWidth >= 768 ? "bottom" : "middle"}
             iconType="square"
           />
         </PieChart>
@@ -75,8 +75,8 @@ const renderCustomizedLabel =
     const y = cy + radius * Math.sin(-midAngle * (Math.PI / 180));
 
     // Use relative units for font size and position
-    const fontSize = window.innerWidth >= 768 ? "1em" : "1em";
-    const yOffset = window.innerWidth >= 768 ? 0 : 0;
+    const fontSize = window.innerWidth >= 768 ? "1em" : "0.7em";
+    const yOffset = window.innerWidth >= 768 ? 0 : -10;
 
     return (
       <text
