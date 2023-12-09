@@ -1,4 +1,4 @@
-## Recent Project: 🤲 Donation Campaign
+## 🤲 Donation Campaign
 
 Donation Campaign is a web application built with React.js, Tailwind CSS, DaisyUI, and Firebase. The platform allows users to make donations, view the donation list, and contribute to meaningful causes. Users can register and log in using email/password or Google credentials.
 
